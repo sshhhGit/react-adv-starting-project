@@ -1,5 +1,13 @@
+import {useParams} from "react-router-dom";
+import EventItem from "../components/EventItem";
+
 function EventDetailPage() {
-  return <h1>EventDetailPage</h1>;
+  const params = useParams();
+  
+  return (
+      <EventItem event={}/>
+  );
 }
 
 export default EventDetailPage;
+
