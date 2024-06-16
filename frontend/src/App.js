@@ -30,7 +30,7 @@ import EventDetailPage, { loader as eventDetailLoader } from "./pages/EventDetai
 import EventsPage, { loader as eventsLoader} from "./pages/Events";
 import EventsRootLayout from "./pages/EventsRoot";
 import HomePage from "./pages/Home";
-import NewEventPage,  from "./pages/NewEvent";
+import NewEventPage from "./pages/NewEvent";
 import RootLayout from "./pages/Root";
 
 const router = createBrowserRouter([
